@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+/* selector */
+h2 {
+  color: palevioletred;
+  background-color: rgb(209, 243, 140);
+  width: 25vm;
+  display: inline-block;
+}
+
+h2:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  box-shadow: 2px 2px black;
+}
+
+#fancy {
+  background-color: chocolate;
+}
+
+#rgb {
+  /* max 255 */
+  color: rgb(235, 207, 235);
+  background-color: #ff0059;
+  /* 
+  red red green green blue blue
+  red = ff0000
+  green = 00ff00
+  blue = 0000ff
+
+  rgba => a is transparent
+   */
+  width: 125px; /* absolute unit */
+}
+
+#vm {
+  width: 100vm; /*  */
+  height: 10vh;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  /* wrong url -> not changed */
+  color: pink;
+}

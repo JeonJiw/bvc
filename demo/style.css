@@ -1,0 +1,33 @@
+/* selector - p, h2*/
+p {
+  /* property */
+  color: darksalmon;
+  background-color: blueviolet;
+  margin: 0;
+}
+
+h2 {
+  color: yellowgreen;
+  background-color: peachpuff;
+  margin: 0;
+}
+
+.para {
+  color: yellowgreen;
+  background-color: peachpuff;
+  margin: 0;
+}
+
+#fancy {
+  color: rgb(235, 44, 76);
+  background-color: lightblue;
+  margin: 0;
+}
+
+.special {
+  background-color: rgb(218, 221, 45);
+}
+
+p.special {
+  font-size: 5px;
+}

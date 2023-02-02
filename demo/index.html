@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- It will work without it, but it tells to browser it is html -->
+<!-- markup language, not programming language. hyper text : extra stuff, links, text, img etc-->
+<html lang="en">
+  <!-- angle bracket is with tag. It works without it, but it is better to have for SEO -->
+  <head>
+    <!-- Head is not showing in the browser -->
+    <!-- element, opening tag can have attributes -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECH1101 Demo</title>
+  </head>
+  <body>
+    Hello Class!
+    <h1>H1 Title</h1>
+    <!-- 이건 무조건 페이지당 하나만 -->
+    <h2>H2 Subheading</h2>
+    <h3>H3 섭섭이</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <p>You are so cute!</p>
+
+    <!-- no closing tag -->
+    <img
+      width="300"
+      src="./images/cat.jpg"
+      alt="a cat"
+    /><!-- 다른 url을 가져오는 것이 안좋은 이유 : 같은 url인데 이미지가 바뀌거나, 저작권문제, 서버가 다운될 수가 있다. alt 구글이 이게 무슨 이미지인지 알려주는 것-->
+
+    <ol>
+      <li>item1</li>
+      <li>Item2</li>
+    </ol>
+
+    <ul>
+      <!-- ul always contain direct children -->
+      unordered list
+      <li>Item1</li>
+      <li>Item2</li>
+      <ul>
+        <li>Sub-Item 1</li>
+        <li>Sub-Item 2</li>
+      </ul>
+      <li>Item3</li>
+    </ul>
+
+    <table border="1px solid black">
+      <tr>
+        <th>Course Name</th>
+        <th>Course Nunber</th>
+      </tr>
+      <tr>
+        <td>Web Fundamentals</td>
+        <td>TECH 1101</td>
+      </tr>
+      <tr>
+        <td>Intro to Web Programming</td>
+        <td>SODV 1201</td>
+      </tr>
+    </table>
+  </body>
+</html>

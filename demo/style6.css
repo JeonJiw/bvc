@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+li:hover {
+  background-color: rgb(227, 202, 250);
+}
+
+.nav-btn {
+  display: inline-block;
+}
+
+li > ul {
+  background-color: rgb(144, 101, 255);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-100%);
+  transition: transform 1s;
+  z-index: -1;
+}
+
+li:hover > ul {
+  transform: translateY(0%);
+}
+
+.navbar {
+  background-color: rgb(144, 101, 255);
+}
